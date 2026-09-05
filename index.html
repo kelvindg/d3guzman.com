@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin De Guzman</title>
+  <meta name="description" content="Kelvin De Guzman — thanks for visiting." />
+  <meta property="og:title" content="Kelvin De Guzman" />
+  <meta property="og:description" content="Thanks for visiting." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="stage" role="main">
+    <!-- Modern monogram -->
+    <div class="monogram" aria-label="KD monogram">
+      <span class="m-fill">K</span><span class="m-outline">D</span>
+    </div>
+
+    <h1 class="name">Kelvin De Guzman</h1>
+
+    <div class="rule" aria-hidden="true"><span class="rule-dot"></span></div>
+
+    <!-- Life verse (centerpiece) -->
+    <blockquote class="verse">
+      <p class="verse-text">
+        &ldquo;For I know the plans I have for you,&rdquo; declares the Lord,
+        &ldquo;plans to prosper you and not to harm you, plans to give you
+        hope and a future.&rdquo;
+      </p>
+      <cite class="verse-ref">Jeremiah 29:11</cite>
+    </blockquote>
+
+    <div class="rule" aria-hidden="true"><span class="rule-dot"></span></div>
+
+    <p class="thanks">Thanks for visiting.</p>
+
+    <footer class="colophon">
+      <span>&copy; <span id="year">2026</span></span>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="https://d3guzman.com" rel="home">d3guzman.com</a>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
